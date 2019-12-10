@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/media.css">
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <!-- NAV -->
+  <nav class="navbar navbar-expand-{ -sm | -md | -lg | -xl } navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">EW</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Mission Statement <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Projects <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Me</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Let's Connect
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">LinkedIn</a>
+            <a class="dropdown-item" href="#">GitHub</a>
+            <a class="dropdown-item" href="#">Blog</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Design Principles</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Credit</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <!-- JUMBO -->
+
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container title">
+      <h1 class="display-4 titleName">Eric Winebrenner</h1>
+      <p class="lead titleName">Web Developer</p>
+    </div>
+  </div>
+
+  <!-- SUB-BAR / List of icons  -->
+  <div class="icon-ref">
+
+  </div>
+  <!-- MISSION STATEMENT -->
+  <div class="mission md-8">
+    <h3>My Mission Statement</h3>
+    <div class="mStatement">
+        <p>We don't really know where this goes - and I'm not sure we really care. Even the worst thing we can do here is good. Be brave. We'll put all the little clouds in and let them dance around and have fun. I sincerely wish for you every possible joy life could bring. If there's two big trees invariably sooner or later there's gonna be a little tree.</p>
+
+        <p>That's a crooked tree. We'll send him to Washington. No pressure. Just relax and watch it happen. Just a little indication. If you've been in Alaska less than a year you're a Cheechako. I'm sort of a softy, I couldn't shoot Bambi except with a camera. When you buy that first tube of paint it gives you an artist license.</p>
+    </div>
+  </div>
+  <!-- SUB-BAR / styling concept -->
+
+  <!-- PROJECTS -->
+  <!-- Need to correct the images so that they are rendering correctly -->
+
+  <div id="carouselExampleCaptions" class="carousel slide container-fluid" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./assets/test1.jpeg" class="project-imgs d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block d-sm-block">
+          <h5>First slide label</h5>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/test2.jpeg" class="project-imgs d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block d-sm-block">
+          <h5>Second slide label</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/test3.jpeg" class="project-imgs d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block d-sm-block">
+          <h5>Third slide label</h5>
+          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/test4.jpeg" class="project-imgs d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block d-sm-block">
+          <h5>Fourth slide label</h5>
+          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev container-fluid" href="#carouselExampleCaptions" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only container-fluid">Previous</span>
+    </a>
+    <a class="carousel-control-next container-fluid" href="#carouselExampleCaptions" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only container-fluid">Next</span>
+    </a>
+  </div>
+
+  <!-- ABOUT ME -->
+
+  <!-- CONTACT ME -->
+
+      <!-- Button trigger modal -->
+      <button type="button" class="contact-btn btn btn-dark" data-toggle="modal" data-target="#staticBackdrop">
+        Contact Me
+      </button>
+  
+      <!-- Modal -->
+      <div class="modal fade" id="staticBackdrop" data-backdrop="static" tabindex="-1" role="dialog"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <!-- <button type="button" class="btn btn-primary">Understood</button> -->
+            </div>
+          </div>
+        </div>
+      </div>
+  
+
+  <!-- MY DESIGN PRINCIPLE -->
+
+  <!-- FOOTER -->
+
+  <!-- TESTING GROUNDS -->
+  <p class="sampleClass" id="sample" style="margin: 30px;">TEST for JS</p>
+
+
+  <!-- JS -->
+  <script src="scripts.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+
+</body>
+
+</html>

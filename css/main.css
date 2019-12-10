@@ -1,0 +1,91 @@
+@import "icons.css";
+
+body {
+    display: inline-block;
+    justify-items: center;
+    margin: auto 0;
+    padding: 0;
+    background-color: black;
+    overflow-x: hidden;
+}
+
+/* NAVBAR */
+.navbar {
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+}
+
+/* MODAL */
+.contact-btn {
+    position: fixed;
+    bottom: 4em;
+    right: 4em;
+}
+
+/* JUMBO */
+.jumbotron {
+    height: 80vh;
+}
+
+.title {
+    position: absolute;
+    animation-name: move;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes move{
+    0% {top: 5vh; }
+    25% {top: 20vh; }
+    50% {top: 55vh; }
+    75% {top: 20vh; }
+    100% {top: 5vh; }
+}
+
+/* SUB-BAR ICONS */
+.icon-ref {
+    height: 20vh;
+    width: 100vw;
+    border: 2pt grey solid;
+    margin-bottom: 1em;
+}
+
+/* MISSION STATEMENT */
+.mission {
+    display: block;
+    text-align: center;
+    color: whitesmoke;
+    height: 50vh;
+    width: 50vw;
+}
+
+/* PROJECTS */
+.carousel {
+    height: 60vh;
+}
+
+.carousel-inner {
+    height: 60vh;
+    background-size: 100%;
+    background-position: center;
+    border-radius: 20px;
+    /* border: 2pt red solid; */
+}
+
+.carousel-item {
+    height: 60vh;
+
+}
+
+.project-imgs {
+    height: 100vh;
+    position: center;
+}
+
+.carousel-caption {
+    background-color: rgba(0,0,0,.5);
+    background-size: 100vw;
+    border-radius: 20px;
+}
