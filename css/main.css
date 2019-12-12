@@ -1,14 +1,19 @@
 @import "icons.css";
 
 body {
-    display: inline-block;
-    justify-items: center;
+    
     margin: auto 0;
     padding: 0;
     background-color: black;
     overflow-x: hidden;
+    color: whitesmoke;
 }
 
+hr {
+    background-color: whitesmoke;
+}
+
+/* _______________________________________ */
 /* NAVBAR */
 .navbar {
     position: fixed;
@@ -16,16 +21,21 @@ body {
     z-index: 1;
 }
 
+/* _______________________________________ */
 /* MODAL */
+/* INCOMPLETE */
 .contact-btn {
     position: fixed;
-    bottom: 4em;
-    right: 4em;
+    bottom: 2em;
+    right: 2em;
+    z-index: 10;
 }
 
+/* _______________________________________ */
 /* JUMBO */
 .jumbotron {
     height: 80vh;
+    margin-bottom: 0;
 }
 
 .title {
@@ -34,36 +44,70 @@ body {
     animation-duration: 20s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
+    color: black;
 }
 
 @keyframes move{
     0% {top: 5vh; }
     25% {top: 20vh; }
-    50% {top: 55vh; }
+    50% {top: 50vh; }
     75% {top: 20vh; }
     100% {top: 5vh; }
 }
 
-/* SUB-BAR ICONS */
-.icon-ref {
-    height: 20vh;
+/* _______________________________________ */
+/* SUB-BAR ICONS 
+-- styling for individual icons are being imported */
+#icon-ref {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     width: 100vw;
-    border: 2pt grey solid;
-    margin-bottom: 1em;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
 }
 
+/* _______________________________________ */
 /* MISSION STATEMENT */
 .mission {
-    display: block;
-    text-align: center;
-    color: whitesmoke;
-    height: 50vh;
-    width: 50vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: left;
+    /* height: 50vh; */
+    width: 100vw;
 }
 
+.misson-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* padding: 0 8em 2em 8em; */
+    padding-bottom: 2em;
+    margin: 2em 0;
+    height: 100%;
+}
+
+#mission-image {
+    background-image: url('https://images.unsplash.com/photo-1576092760739-f0c1ee8c9a59?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: 1pt solid yellow;
+    width: 40%;
+}
+
+.mStatement {
+    width: 40%;
+    margin: 2em;
+}
+
+/* _______________________________________ */
 /* PROJECTS */
+/* desc has been removed. */
 .carousel {
-    height: 60vh;
+    /* height: 60vh; */
 }
 
 .carousel-inner {
@@ -75,12 +119,12 @@ body {
 }
 
 .carousel-item {
-    height: 60vh;
+    /* height: 60vh; */
 
 }
 
 .project-imgs {
-    height: 100vh;
+    /* height: 100vh; */
     position: center;
 }
 
@@ -88,4 +132,120 @@ body {
     background-color: rgba(0,0,0,.5);
     background-size: 100vw;
     border-radius: 20px;
+}
+
+/* _______________________________________ */
+/* ABOUT ME */
+.aboutMe {
+    padding: 2em;
+}
+
+.aboutMeBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#aboutMeText{
+    width: 45vw;
+}
+
+#aboutMePic{
+    border: red solid 2px;
+    width: 45vw;
+
+    background-image: url('https://images.unsplash.com/photo-1561505457-3bcad021f8ee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80');
+    background-size: 100%;
+    background-position-y: -90pt;
+    background-repeat: no-repeat;
+}
+
+
+/* _______________________________________ */
+/* DESIGN PRINCIPLES */
+.designPrincipleMain {
+    padding: 2em;
+}
+
+#designConcept {
+    padding: 2em;
+    width: 65vw;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+
+
+.colorFonts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.designColors {
+    display: flex;
+    flex-wrap: wrap;
+    width: 45vw;
+    padding: 2em;
+    border-right: 5pt solid whitesmoke;
+}
+
+#d-Colors {
+    height: 200px;
+    width: 200px;
+    margin: 1em;
+    border: 1pt solid green;
+    border-radius: 300px;
+    
+}
+
+.designFonts {
+    margin: 2em;
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#d-fonts {
+    margin: auto;
+}
+
+/* _______________________________________ */
+/* SUB-BAR - Dad Joke stuffs */
+.dadJoke {
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    /* align-content: space-between; */
+    margin: 2em;
+    padding: 0 15em;
+}
+
+.dadJoke p {
+    margin: .5em;
+}
+
+.jokebutton {
+    margin: .5em;
+}
+
+#joke {
+    margin: .5em;
+}
+
+
+/* _______________________________________ */
+/* FOOTER */
+.footer {
+    width: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    bottom: 0;
+    z-index: -12;
+}
+
+.footer ul li {
+    list-style-type: none;
 }

@@ -1,0 +1,9 @@
+.famIcons {
+    display: flex;
+    height: 80px;
+    width: 80px;
+    border: 2pt blue solid;
+    margin: .5em;
+    color: white; /* this is just to see the location at the moment*/
+}
+

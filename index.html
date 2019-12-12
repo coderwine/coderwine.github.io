@@ -14,7 +14,7 @@
 
 <body>
   <!-- NAV -->
-  <nav class="navbar navbar-expand-{ -sm | -md | -lg | -xl } navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-{ -sm | -md | -lg | -xl } navbar-dark bg-dark ">
     <a class="navbar-brand" href="#">EW</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
       aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,13 +23,13 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Mission Statement <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#missionStatement">Mission Statement <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="#">Projects <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#projects">Projects <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About Me</a>
+          <a class="nav-link" href="#about">About Me</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
@@ -37,16 +37,16 @@
             Let's Connect
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#">LinkedIn</a>
-            <a class="dropdown-item" href="#">GitHub</a>
-            <a class="dropdown-item" href="#">Blog</a>
+            <a class="dropdown-item" href="https://www.linkedin.com/in/ewine/" target="_blank">LinkedIn</a>
+            <a class="dropdown-item" href="https://github.com/coderwine" target="_blank">GitHub</a>
+            <a class="dropdown-item" href="#" target="_blank">Blog</a>
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Design Principles</a>
+          <a class="nav-link" href="#design">My Design Principles</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Credit</a>
+          <a class="nav-link" href="#foot">Credit</a>
         </li>
       </ul>
     </div>
@@ -63,24 +63,47 @@
   </div>
 
   <!-- SUB-BAR / List of icons  -->
-  <div class="icon-ref">
-
+  <div id="icon-ref">
+    <div class="famIcons" id="filler">1</div>
+    <div class="famIcons" id="filler"></div>
+    <div class="famIcons" id="filler"></div>
+    <div class="famIcons" id="filler"></div>
+    <div class="famIcons" id="filler"></div>
+    <div class="famIcons" id="filler"></div>
+    <div class="famIcons" id="filler"></div>
+    <div class="famIcons" id="filler"></div>
+    <div class="famIcons" id="filler"></div>
+    <div class="famIcons" id="filler"></div>
+    <div class="famIcons" id="filler"></div>
+    <div class="famIcons" id="filler"></div>
+    <div class="famIcons" id="filler"></div>
+    <div class="famIcons" id="filler"></div>
+    <div class="famIcons" id="filler">15</div>
   </div>
-  <!-- MISSION STATEMENT -->
-  <div class="mission md-8">
-    <h3>My Mission Statement</h3>
-    <div class="mStatement">
-        <p>We don't really know where this goes - and I'm not sure we really care. Even the worst thing we can do here is good. Be brave. We'll put all the little clouds in and let them dance around and have fun. I sincerely wish for you every possible joy life could bring. If there's two big trees invariably sooner or later there's gonna be a little tree.</p>
 
-        <p>That's a crooked tree. We'll send him to Washington. No pressure. Just relax and watch it happen. Just a little indication. If you've been in Alaska less than a year you're a Cheechako. I'm sort of a softy, I couldn't shoot Bambi except with a camera. When you buy that first tube of paint it gives you an artist license.</p>
+  <!-- MISSION STATEMENT -->
+  <div class="mission" id="missionStatement">
+    <h3>Mission Statement</h3>
+    <div class="misson-body">
+      <div id="mission-image"></div>
+      <div class="mStatement">
+        <p>We don't really know where this goes - and I'm not sure we really care. Even the worst thing we can do here
+          is good. Be brave. We'll put all the little clouds in and let them dance around and have fun. I sincerely wish
+          for you every possible joy life could bring. If there's two big trees invariably sooner or later there's gonna
+          be a little tree.</p>
+
+        <p>That's a crooked tree. We'll send him to Washington. No pressure. Just relax and watch it happen. Just a
+          little indication. If you've been in Alaska less than a year you're a Cheechako. I'm sort of a softy, I
+          couldn't shoot Bambi except with a camera. When you buy that first tube of paint it gives you an artist
+          license.</p>
+      </div>
     </div>
   </div>
-  <!-- SUB-BAR / styling concept -->
 
   <!-- PROJECTS -->
   <!-- Need to correct the images so that they are rendering correctly -->
 
-  <div id="carouselExampleCaptions" class="carousel slide container-fluid" data-ride="carousel">
+  <div id="carouselExampleCaptions projects" class="carousel slide container-fluid" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -128,43 +151,112 @@
   </div>
 
   <!-- ABOUT ME -->
+  <div class="aboutMe" id="about">
+    <h1>About Me</h1>
+    <hr>
+    <div class="aboutMeBox">
+
+      <div id="aboutMeText">
+        <p>Put light against light - you have nothing. Put dark against dark - you have nothing. It's the contrast of
+          light and dark that each give the other one meaning. Get tough with it, get strong. This is your world. Just
+          let your mind wander and enjoy. This should make you happy. That's what makes life fun. That you can make
+          these decisions. That you can create the world that you want. Maybe there's a happy little Evergreen that
+          lives here.</p>
+
+        <p>Volunteering your time; it pays you and your whole community fantastic dividends. In your world you have
+          total and absolute power. This is probably the greatest thing that's ever happened in my life. Just go back
+          and put one little more happy tree in there. You have to allow the paint to break to make it beautiful. Clouds
+          are free they come and go as they please.</p>
+
+        <p>Learn when to stop. You're the greatest thing that has ever been or ever will be. You're special. You're so
+          very special. Of course he's a happy little stone, cause we don't have any other kind. Clouds are free. They
+          just float around the sky all day and have fun. It just happens - whether or not you worried about it or tried
+          to plan it. Think about a cloud. Just float around and be there.</p>
+      </div>
+      <hr>
+      <div id="aboutMePic"></div>
+    </div>
+  </div>
 
   <!-- CONTACT ME -->
 
-      <!-- Button trigger modal -->
-      <button type="button" class="contact-btn btn btn-dark" data-toggle="modal" data-target="#staticBackdrop">
-        Contact Me
-      </button>
-  
-      <!-- Modal -->
-      <div class="modal fade" id="staticBackdrop" data-backdrop="static" tabindex="-1" role="dialog"
-        aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              ...
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <!-- <button type="button" class="btn btn-primary">Understood</button> -->
-            </div>
-          </div>
+  <!-- Button trigger modal -->
+  <button type="button" class="contact-btn btn btn-success" data-toggle="modal" data-target="#staticBackdrop">
+    Contact Me
+  </button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-backdrop="static" tabindex="-1" role="dialog"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <!-- <button type="button" class="btn btn-primary">Understood</button> -->
         </div>
       </div>
-  
+    </div>
+  </div>
 
   <!-- MY DESIGN PRINCIPLE -->
+  <div class="designPrincipleMain" id="design">
+    <h1>Design Principle</h1>
+    <div id="designConcept">
+        <h3>UX/UI</h3>
+        <p>We start with a vision in our heart, and we put it on canvas. All you need to paint is a few tools, a little
+          instruction, and a vision in your mind. Let's put some happy little bushes on the other side now. When you do
+          it your way you can go anywhere you choose. Let all these things just sort of happen. See there, told you that
+          would be easy.</p>
+    </div>
+    <hr>
+    <h3>My Fonts & Colors</h3>
+    <div class="colorFonts">
+      <div class="designColors">
+        <div id="d-Colors"></div>
+        <div id="d-Colors"></div>
+        <div id="d-Colors"></div>
+      </div>
+      <div class="designFonts">
+        <div id="d-fonts">SAMPLE FONT 1</div>
+        <div id="d-fonts">SAMPLE FONT 2</div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- SUB-BAR / styling concept -->
+  <div class="dadJoke">
+    <p>Desc of what this button will do:</p>
+      <button type="button" class="btn btn-outline-success jokeButton">SAMPLE</button> <br> 
+  
+      <div id="joke">
+        <!-- The goal is to have this feed a random loop of set "dad jokes" via JS  -->
+        <p>Be careful. You can always add more - but you can't take it away.</p>
+      </div>
+    </div>
 
   <!-- FOOTER -->
-
-  <!-- TESTING GROUNDS -->
-  <p class="sampleClass" id="sample" style="margin: 30px;">TEST for JS</p>
+  <div class="footer" id="foot">
+    <ul class="credits"> Powered by:
+      <li id="foot-item">Sample Info</li>
+      <li id="foot-item">Sample Info</li>
+      <li id="foot-item">Sample Info</li>
+    </ul>
+    <ul class="credit-icons">Connections:
+      <li id="foot-icon">LI</li>
+      <li id="foot-icon">GH</li>
+      <li id="foot-icon">EW</li>
+    </ul>
+  </div>
 
 
   <!-- JS -->
