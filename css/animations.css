@@ -1,0 +1,40 @@
+@keyframes move {
+    0% {
+        text-shadow: 3px -5px darkgrey;
+    }
+
+
+    50% {
+        text-shadow: -16px -12px darkgrey;
+    }
+
+    100% {
+        text-shadow: -10px -15px darkgrey;
+    }
+}
+
+@keyframes passingTime {
+    /* 0% {
+        transform: rotate(0deg);
+    } */
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes sunset {
+    25% {
+        height: 120px;
+        width: 120px;
+    }
+    50% {
+        height: 200px;
+        width: 200px;
+    }
+    100% {
+        transform: rotate(360deg);
+        height: 100px;
+        width: 100px;
+    }
+}

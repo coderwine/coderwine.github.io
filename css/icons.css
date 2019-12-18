@@ -1,9 +1,1005 @@
 .famIcons {
     display: flex;
-    height: 80px;
-    width: 80px;
-    border: 2pt blue solid;
+    height: 120px;
+    width: 120px;
     margin: .5em;
-    color: white; /* this is just to see the location at the moment*/
 }
 
+#box-OneFull {
+    position: relative;
+    animation-name: boxOneFull;
+    animation-duration: 45s;
+    animation-iteration-count: infinite;
+}
+
+#box-TwoFull {
+    animation-name: boxTwoFull;
+    animation-duration: 45s;
+    animation-iteration-count: infinite;
+    animation-timing-function: unset;
+}
+
+#box-ThreeFull {
+    animation-name: boxThreeFull;
+    animation-duration: 45s;
+    animation-iteration-count: infinite;
+    animation-timing-function: unset;
+}
+
+#box-FourFull {
+    animation-name: boxFourFull;
+    animation-duration: 45s;
+    animation-iteration-count: infinite;
+    animation-timing-function: unset;
+}
+
+#box-FiveFull {
+    animation-name: boxFiveFull;
+    animation-duration: 45s;
+    animation-iteration-count: infinite;
+    animation-timing-function: unset;
+}
+
+/* ANIMATIONS */
+@keyframes boxOneFull {
+
+    0% {
+        background-image: url('../assets/my-icons-collection/svg/html.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    5% {
+        background-image: url('../assets/my-icons-collection/svg/node.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    10% {
+        background-image: url('../assets/my-icons-collection/svg/Angular.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    15% {
+        background-image: url('../assets/my-icons-collection/svg/github-circle.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    20% {
+        background-image: url('../assets/my-icons-collection/svg/XD_box.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    25% {
+        background-image: url('../assets/my-icons-collection/svg/AI-circle.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    30% {
+        background-image: url('../assets/my-icons-collection/svg/PS-circle.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    35% {
+        background-image: url('../assets/my-icons-collection/svg/ID-circle.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    40% {
+        background-image: url('../assets/my-icons-collection/svg/Linux.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    45% {
+        background-image: url('../assets/my-icons-collection/svg/microsoftOS.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    50% {
+        background-image: url('../assets/my-icons-collection/svg/Word.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    55% {
+        background-image: url('../assets/my-icons-collection/svg/excel.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    60% {
+        background-image: url('../assets/my-icons-collection/svg/GoogleLogo.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    65% {
+        background-image: url('../assets/my-icons-collection/svg/wordpress.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    70% {
+        background-image: url('../assets/my-icons-collection/svg/react.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    75% {
+        background-image: url('../assets/my-icons-collection/svg/Bootstrap.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    83% {
+        background-image: url('../assets/my-icons-collection/svg/JS.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    90% {
+        background-image: url('../assets/my-icons-collection/svg/css3.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    100% {
+        background-image: url('../assets/my-icons-collection/svg/html.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+
+@keyframes boxTwoFull {
+
+    0% {
+        background-image: url('../assets/my-icons-collection/svg/css3.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    5% {
+        background-image: url('../assets/my-icons-collection/svg/html.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    10% {
+        background-image: url('../assets/my-icons-collection/svg/node.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    15% {
+        background-image: url('../assets/my-icons-collection/svg/Angular.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    20% {
+        background-image: url('../assets/my-icons-collection/svg/github-circle.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    25% {
+        background-image: url('../assets/my-icons-collection/svg/XD_box.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    30% {
+        background-image: url('../assets/my-icons-collection/svg/AI-circle.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    35% {
+        background-image: url('../assets/my-icons-collection/svg/PS-circle.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    40% {
+        background-image: url('../assets/my-icons-collection/svg/ID-circle.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    45% {
+        background-image: url('../assets/my-icons-collection/svg/Linux.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    50% {
+        background-image: url('../assets/my-icons-collection/svg/microsoftOS.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    55% {
+        background-image: url('../assets/my-icons-collection/svg/Word.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    60% {
+        background-image: url('../assets/my-icons-collection/svg/excel.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    65% {
+        background-image: url('../assets/my-icons-collection/svg/GoogleLogo.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    70% {
+        background-image: url('../assets/my-icons-collection/svg/wordpress.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    75% {
+        background-image: url('../assets/my-icons-collection/svg/react.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    83% {
+        background-image: url('../assets/my-icons-collection/svg/Bootstrap.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    90% {
+        background-image: url('../assets/my-icons-collection/svg/JS.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    100% {
+        background-image: url('../assets/my-icons-collection/svg/css3.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+
+@keyframes boxThreeFull {
+
+    0% {
+        background-image: url('../assets/my-icons-collection/svg/JS.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    5% {
+        background-image: url('../assets/my-icons-collection/svg/css3.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    10% {
+        background-image: url('../assets/my-icons-collection/svg/html.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    15% {
+        background-image: url('../assets/my-icons-collection/svg/node.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    20% {
+        background-image: url('../assets/my-icons-collection/svg/Angular.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    25% {
+        background-image: url('../assets/my-icons-collection/svg/github-circle.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    30% {
+        background-image: url('../assets/my-icons-collection/svg/XD_box.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    35% {
+        background-image: url('../assets/my-icons-collection/svg/AI-circle.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    40% {
+        background-image: url('../assets/my-icons-collection/svg/PS-circle.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    45% {
+        background-image: url('../assets/my-icons-collection/svg/ID-circle.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    50% {
+        background-image: url('../assets/my-icons-collection/svg/Linux.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    55% {
+        background-image: url('../assets/my-icons-collection/svg/microsoftOS.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    60% {
+        background-image: url('../assets/my-icons-collection/svg/Word.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    65% {
+        background-image: url('../assets/my-icons-collection/svg/excel.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    70% {
+        background-image: url('../assets/my-icons-collection/svg/GoogleLogo.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    75% {
+        background-image: url('../assets/my-icons-collection/svg/wordpress.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    83% {
+        background-image: url('../assets/my-icons-collection/svg/react.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    90% {
+        background-image: url('../assets/my-icons-collection/svg/Bootstrap.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    100% {
+        background-image: url('../assets/my-icons-collection/svg/JS.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+
+@keyframes boxFourFull {
+
+    0% {
+        background-image: url('../assets/my-icons-collection/svg/Bootstrap.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    5% {
+        background-image: url('../assets/my-icons-collection/svg/JS.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    10% {
+        background-image: url('../assets/my-icons-collection/svg/css3.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    15% {
+        background-image: url('../assets/my-icons-collection/svg/html.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    20% {
+        background-image: url('../assets/my-icons-collection/svg/node.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    25% {
+        background-image: url('../assets/my-icons-collection/svg/Angular.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    30% {
+        background-image: url('../assets/my-icons-collection/svg/github-circle.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    35% {
+        background-image: url('../assets/my-icons-collection/svg/XD_box.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    40% {
+        background-image: url('../assets/my-icons-collection/svg/AI-circle.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    45% {
+        background-image: url('../assets/my-icons-collection/svg/PS-circle.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    50% {
+        background-image: url('../assets/my-icons-collection/svg/ID-circle.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    55% {
+        background-image: url('../assets/my-icons-collection/svg/Linux.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    60% {
+        background-image: url('../assets/my-icons-collection/svg/microsoftOS.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    65% {
+        background-image: url('../assets/my-icons-collection/svg/Word.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    70% {
+        background-image: url('../assets/my-icons-collection/svg/excel.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    75% {
+        background-image: url('../assets/my-icons-collection/svg/GoogleLogo.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    83% {
+        background-image: url('../assets/my-icons-collection/svg/wordpress.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    90% {
+        background-image: url('../assets/my-icons-collection/svg/react.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    100% {
+        background-image: url('../assets/my-icons-collection/svg/Bootstrap.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+
+@keyframes boxFiveFull {
+
+    0% {
+        background-image: url('../assets/my-icons-collection/svg/react.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    5% {
+        background-image: url('../assets/my-icons-collection/svg/Bootstrap.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    10% {
+        background-image: url('../assets/my-icons-collection/svg/JS.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    15% {
+        background-image: url('../assets/my-icons-collection/svg/css3.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    20% {
+        background-image: url('../assets/my-icons-collection/svg/html.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    25% {
+        background-image: url('../assets/my-icons-collection/svg/node.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    30% {
+        background-image: url('../assets/my-icons-collection/svg/Angular.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    35% {
+        background-image: url('../assets/my-icons-collection/svg/github-circle.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    40% {
+        background-image: url('../assets/my-icons-collection/svg/XD_box.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    45% {
+        background-image: url('../assets/my-icons-collection/svg/AI-circle.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    50% {
+        background-image: url('../assets/my-icons-collection/svg/PS-circle.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    55% {
+        background-image: url('../assets/my-icons-collection/svg/ID-circle.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    60% {
+        background-image: url('../assets/my-icons-collection/svg/Linux.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    65% {
+        background-image: url('../assets/my-icons-collection/svg/microsoftOS.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    70% {
+        background-image: url('../assets/my-icons-collection/svg/Word.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    75% {
+        background-image: url('../assets/my-icons-collection/svg/excel.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    83% {
+        background-image: url('../assets/my-icons-collection/svg/GoogleLogo.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    90% {
+        background-image: url('../assets/my-icons-collection/svg/wordpress.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    100% {
+        background-image: url('../assets/my-icons-collection/svg/react.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+
+
+/* MOBILE SETUP */
+
+.famIcons-mobile {
+    display: flex;
+    height: 80px;
+    width: 80px;
+    /* border: 2pt red solid; */
+    margin: .5em;
+    color: white;
+}
+
+#box-One {
+    animation-name: boxOne;
+    animation-duration: 120s;
+    animation-iteration-count: infinite;
+    animation-timing-function: unset;
+}
+
+#box-Two {
+    animation-name: boxTwo;
+    animation-duration: 120s;
+    animation-iteration-count: infinite;
+    animation-timing-function: unset;
+}
+
+#box-Three {
+    animation-name: boxThree;
+    animation-duration: 120s;
+    animation-iteration-count: infinite;
+    animation-timing-function: unset;
+}
+
+/* ANIMATION */
+@keyframes boxOne {
+
+    /* Github is background as Black and will need to be altered in order to be seen. */
+       0% {
+            background-image: url('../assets/my-icons-collection/svg/html.svg');
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+    
+        5% {
+            background-image: url('../assets/my-icons-collection/svg/Bootstrap.svg');
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+    
+        10% {
+            background-image: url('../assets/my-icons-collection/svg/react.svg');
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+    
+        15% {
+            background-image: url('../assets/my-icons-collection/svg/node.svg');
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        20% {
+            background-image: url('../assets/my-icons-collection/svg/Angular.svg');
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+    
+        25% {
+            background-image: url('../assets/my-icons-collection/svg/Heroku.svg');
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+    
+        32% {
+            background-image: url('../assets/my-icons-collection/svg/github.svg');
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        38% {
+            background-image: url('../assets/my-icons-collection/svg/XD_box.svg');
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        48% {
+            background-image: url('../assets/my-icons-collection/svg/PS-circle.svg');
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        52% {
+            background-image: url('../assets/my-icons-collection/svg/ID-circle.svg');
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        58% {
+            background-image: url('../assets/my-icons-collection/svg/AI-circle.svg');
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        62% {
+            background-image: url('../assets/my-icons-collection/svg/excel.svg');
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        68% {
+            background-image: url('../assets/my-icons-collection/svg/Word.svg');
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+    
+        72% {
+            background-image: url('../assets/my-icons-collection/svg/microsoftOS.svg');
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+    
+        75% {
+            background-image: url('../assets/my-icons-collection/svg/GoogleLogo.svg');
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        80% {
+            background-image: url('../assets/my-icons-collection/svg/Linux.svg');
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        85% {
+            background-image: url('../assets/my-icons-collection/svg/Wordpress.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        90% {
+            background-image: url('../assets/my-icons-collection/svg/js.svg');
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        95% {
+            background-image: url('../assets/my-icons-collection/svg/css3.svg');
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        100% {
+            background-image: url('../assets/my-icons-collection/svg/html.svg');
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+}
+
+@keyframes boxTwo {
+
+    0% {
+        background-image: url('../assets/my-icons-collection/svg/css3.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    5% {
+        background-image: url('../assets/my-icons-collection/svg/html.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    10% {
+        background-image: url('../assets/my-icons-collection/svg/Bootstrap.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    15% {
+        background-image: url('../assets/my-icons-collection/svg/react.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    20% {
+        background-image: url('../assets/my-icons-collection/svg/node.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    25% {
+        background-image: url('../assets/my-icons-collection/svg/Angular.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    32% {
+        background-image: url('../assets/my-icons-collection/svg/Heroku.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    38% {
+        background-image: url('../assets/my-icons-collection/svg/github.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    48% {
+        background-image: url('../assets/my-icons-collection/svg/XD_box.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    52% {
+        background-image: url('../assets/my-icons-collection/svg/PS-circle.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    58% {
+        background-image: url('../assets/my-icons-collection/svg/ID-circle.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    62% {
+        background-image: url('../assets/my-icons-collection/svg/AI-circle.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    68% {
+        background-image: url('../assets/my-icons-collection/svg/excel.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    72% {
+        background-image: url('../assets/my-icons-collection/svg/Word.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    75% {
+        background-image: url('../assets/my-icons-collection/svg/microsoftOS.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    80% {
+        background-image: url('../assets/my-icons-collection/svg/GoogleLogo.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    85% {
+        background-image: url('../assets/my-icons-collection/svg/Linux.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    90% {
+        background-image: url('../assets/my-icons-collection/svg/Wordpress.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    95% {
+        background-image: url('../assets/my-icons-collection/svg/JS.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    100% {
+        background-image: url('../assets/my-icons-collection/svg/css3.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+
+@keyframes boxThree {
+
+    0% {
+        background-image: url('../assets/my-icons-collection/svg/JS.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    5% {
+        background-image: url('../assets/my-icons-collection/svg/css3.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    10% {
+        background-image: url('../assets/my-icons-collection/svg/html.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    15% {
+        background-image: url('../assets/my-icons-collection/svg/Bootstrap.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    20% {
+        background-image: url('../assets/my-icons-collection/svg/react.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    25% {
+        background-image: url('../assets/my-icons-collection/svg/node.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    32% {
+        background-image: url('../assets/my-icons-collection/svg/Angular.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    38% {
+        background-image: url('../assets/my-icons-collection/svg/Heroku.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    48% {
+        background-image: url('../assets/my-icons-collection/svg/g.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    52% {
+        background-image: url('../assets/my-icons-collection/svg/XD_box.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    58% {
+        background-image: url('../assets/my-icons-collection/svg/PS-circle.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    62% {
+        background-image: url('../assets/my-icons-collection/svg/ID-circle.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    68% {
+        background-image: url('../assets/my-icons-collection/svg/AI-circle.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    72% {
+        background-image: url('../assets/my-icons-collection/svg/excel.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    75% {
+        background-image: url('../assets/my-icons-collection/svg/Word.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    80% {
+        background-image: url('../assets/my-icons-collection/svg/microsoftOS.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    85% {
+        background-image: url('../assets/my-icons-collection/svg/GoogleLogo.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    90% {
+        background-image: url('../assets/my-icons-collection/svg/Linux.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    95% {
+        background-image: url('../assets/my-icons-collection/svg/Wordpress.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    100% {
+        background-image: url('../assets/my-icons-collection/svg/JS.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}

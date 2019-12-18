@@ -1,9 +1,156 @@
+/* __________________________________________ */
+/* Special Case */
+@media only screen and (max-width: 1704px) {
+    #d-Colors {
+        height: 175px;
+        width: 175px;
+        /* margin: 1em; */
+        border: 1pt solid orangered;
+        border-radius: 300px;
+        
+    }
+}
+
+/* __________________________________________ */
+/* Tablets */
+@media only screen and (max-width: 1024px) {
+    /* MISSION STATEMENT */
+    .mission {
+        display: flex;
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+        justify-content: center;
+        text-align: left;
+        margin: 5em auto 0 auto;
+        width: 100vw;
+    }
+    
+    .misson-body {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        padding-bottom: 2em;
+    }
+    
+    #mission-image {
+        width: 50vw;
+        height: 20vh;
+    }
+    
+    .mStatement {
+        width: 75vw;
+        margin: 2em;
+    }
+
+
+    /* SUB-BAR - Dad Joke stuffs */
+    .dadJoke {
+        /* align-content: space-between; */
+        margin: 2em;
+        padding: 0 1em;
+    }
+
+    /* DESIGN */
+    .designPrincipleMain {
+        padding: .5em;
+    }
+
+    #designConcept {
+        padding: 0 20px;
+        width: 90vw;
+    }
+
+    .designColors {
+        border-right: none;
+        border-bottom: 5pt solid whitesmoke;
+        width: 100vw;
+    }
+
+    #d-Colors {
+        height: 200px;
+        width: 200px;
+        margin: auto;
+        border: 1pt solid blue;
+        border-radius: 300px;
+    }
+
+    .designFonts {
+        padding: 1em;
+        /* border-bottom: 5pt solid whitesmoke; */
+        width: 100vw;
+    }
+
+}
+
+
+/* _______________________________________________ */
+/* Mobile Screens */
+
 @media only screen and (max-width: 450px) {
+    /* JUMBOTRON */
     .jumbotron {
         position: relative;
-        top: 3.5em;
         z-index: -1;
-        margin-bottom: 3.5em;
+    }
+
+    .dayNight {
+        top: 25em;
+        width: 50vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: absolute;
+        animation-name: none;
+        animation-duration: 15s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+    
+    .sunShell {
+        /* padding: 3em;
+        height: 100px;
+        width: 100px; */
+        animation-name: none;
+        /* animation-duration: 15s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear; */
+    }
+
+    #dArrow {
+        top: 80vh;
+        left: 45%;
+    }
+
+    /* CONTACT ME */
+    .contact-btn {
+        position: sticky;
+        bottom: 0em;
+        /* left: 14em; */
+        height: 8vh;
+        width: 100vw;
+    }
+
+    .title {
+        top: 30%;
+    }
+
+    
+    
+
+    /* LIST OF ICONS */
+    #icon-ref {
+        display: none;
+    }
+
+    #icon-ref-mobile {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+        padding: 1em;
+        margin-top: -1em;
     }
 
     /* MISSION STATEMENT  */
@@ -17,8 +164,35 @@
     }
 
     #mission-image {
-        visibility: hidden;
+        display: none;
     }
+
+    /* PROJECTS */
+    .projectBoard {
+        padding: 1rem;
+    }
+    
+    #projectImage {
+        margin: .2em auto;
+    }
+    
+    .projectItemA {
+        flex-direction: column;
+    }
+    
+    .projectItemB {
+        flex-direction: column;
+    }
+    
+    #projectInfo {
+        width: 90vw;
+        flex-direction: column;    
+    }
+    
+    /* .projectDetail {
+    
+    } */
+
 
     /* ABOUT ME */
     #aboutMeText {
@@ -41,21 +215,21 @@
 
     .designColors {
         border-right: none;
-        border-bottom: 5pt solid whitesmoke;
+        /* border-bottom: 5pt solid whitesmoke; */
         width: 100vw;
     }
 
     #d-Colors {
-        height: 50px;
-        width: 50px;
-        margin: .75em;
+        height: 80px;
+        width: 80px;
+        margin: auto;
         border: 1pt solid red;
         border-radius: 300px;
     }
 
     .designFonts {
         padding: 1em;
-        border-bottom: 5pt solid whitesmoke;
+        /* border-bottom: 5pt solid whitesmoke; */
         width: 100vw;
     }
 
@@ -67,15 +241,3 @@
     }
 }
 
-/* __________________________________________ */
-/* Tablets */
-@media only screen and (max-width: 770px) {
-
-    /* SUB-BAR - Dad Joke stuffs */
-    .dadJoke {
-        /* align-content: space-between; */
-        margin: 2em;
-        padding: 0 1em;
-    }
-
-}
