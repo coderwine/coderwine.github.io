@@ -1,0 +1,81 @@
+/* Tablets */
+@media only screen and (max-width: 1024px) {
+    /* MISSION STATEMENT */
+    .mission {
+        display: flex;
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+        justify-content: center;
+        text-align: left;
+        margin: 5em auto 0 auto;
+        width: 100vw;
+    }
+    
+    .misson-body {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        padding-bottom: 2em;
+    }
+    
+    #mission-image {
+        width: 50vw;
+        height: 20vh;
+    }
+    
+    .mStatement {
+        width: 75vw;
+        margin: 2em;
+    }
+
+/* ------------------------------------------------- */
+    /* SUB-BAR - Dad Joke stuffs */
+    .dadJoke {
+        /* align-content: space-between; */
+        margin: 2em;
+        padding: 0 1em;
+    }
+
+/* ------------------------------------------------- */
+    /* ABOUT ME */
+    #aboutMePic {
+        display: none;
+    }
+
+    #aboutMeText {
+        width: 60vw;
+    }
+
+/* ------------------------------------------------- */
+    /* DESIGN */
+    .designPrincipleMain {
+        padding: .5em;
+    }
+
+    #designConcept {
+        padding: 0 20px;
+        width: 90vw;
+    }
+
+    .designColors {
+        border-right: none;
+        border-bottom: 5pt solid whitesmoke;
+        width: 100vw;
+    }
+
+    #d-Colors {
+        height: 200px;
+        width: 200px;
+        margin: auto;
+        border: 1pt solid blue;
+        border-radius: 300px;
+    }
+
+    .designFonts {
+        padding: 1em;
+        /* border-bottom: 5pt solid whitesmoke; */
+        width: 100vw;
+    }
+
+}
+
