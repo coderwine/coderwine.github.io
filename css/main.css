@@ -11,6 +11,7 @@ font-family: 'Catamaran', sans-serif; -BODY
     /* rgba(65,181,86,1) */
     --colorTwo: #57d0cb;
     --colorThree: #80c949;
+    /* rgb(128,201,74,1) */
 }
 
 body {
@@ -40,6 +41,7 @@ a:active a:visited {
 
 h1 h2 h3 {
     font-family: 'Bree Serif', serif;
+    color: var(--colorOne);
 }
 
 /* _______________________________________ */
@@ -67,13 +69,11 @@ h1 h2 h3 {
 .modalDisplay{
     color: black;
     background-image: radial-gradient(rgba(0,255,255,1),
-    rgba(0,255,255,.8),
-    rgba(0,255,255,.6),
-    rgba(0,255,255,.4),
-    rgba(0,255,255,.2),
-    rgba(0,255,255,0));
-
-
+    rgba(128,201,74,.8),
+    rgba(128,201,74,.6),
+    rgba(128,201,74,.4),
+    rgba(128,201,74,.2),
+    rgba(128,201,74,0));
 }
 
 fieldset input {
@@ -95,25 +95,36 @@ fieldset textarea {
 
 /* _______________________________________ */
 /* JUMBO */
+
 .jumbotron {
     display: flex;
     flex-direction: row;
     justify-content: center;
     height: 100vh;
     margin-bottom: 0;
-    /* background-image: url('../assets/jumbo_background_space.jpg');
-    background-size: cover; */
+    background-image: radial-gradient(rgba(255,255,255,0),
+    rgba(255,255,255,.25),
+    rgba(255,255,255,.5),
+    rgba(255,255,255,.75),
+    rgba(255,255,255,1)),
+    url('../assets/jumbo-treesFog.jpg');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
 }
 
 .dayNight {
     top: 25em;
-    width: 50vw;
+    /* width: 50vw; */
+    width: 40%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     position: absolute;
     animation-name: passingTime;
-    animation-duration: 15s;
+    /* animation-duration: 23.5604s; */
+    animation-duration: 24s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
@@ -123,16 +134,14 @@ fieldset textarea {
     height: 100px;
     width: 100px;
     animation-name: sunset;
-    animation-duration: 15s;
+    animation-duration: 20s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
 
 .sun {
-    /* height: 100px;
-    width: 100px; */
-    height: 100%;
-    width: 100%;
+    height: 100px;
+    width: 100px;
     /* border: 2pt red solid; */
     border-radius: 100px;
     z-index: 0;
@@ -140,10 +149,8 @@ fieldset textarea {
 }
 
 .sunflare1 {
-    /* height: 100px;
-    width: 100px; */
-    height: 100%;
-    width: 100%;
+    height: 100px;
+    width: 100px;
     background-color: orangered;
     /* border: 2pt solid orangered; */
     position: absolute;
@@ -151,13 +158,12 @@ fieldset textarea {
 }
 
 .suncore {
-    /* height: 100px;
-    width: 100px; */
-    height: 100%;
-    width: 100%;
+    height: 100px;
+    width: 100px;
     background-color: yellow;
     /* border: 2pt solid yellow; */
     border-radius: 300px;
+    box-shadow: 0px 0px 60px yellow;
     position: absolute;
     z-index: 1; 
 }
@@ -165,8 +171,8 @@ fieldset textarea {
 .sunflare2 {
     /* height: 100px;
     width: 100px; */
-    height: 100%;
-    width: 100%;
+    height: 100px;
+    width: 100px;
     transform: rotate(45deg);
     background-color: orange;
     /* border: 2pt solid orange; */
@@ -183,49 +189,13 @@ fieldset textarea {
     width: 90px;
     border: 2pt solid rgb(155,155,155);
     border-radius: 200px;
+    box-shadow: 0px 0px 30px grey;
     transform: rotate(45deg);
-    background-image: radial-gradient(circle at bottom left, rgba(120,120,120,0),
+    background-image: radial-gradient(circle at top right, rgba(120,120,120,0),
     rgba(120,120,120,.5),
     rgba(160,160,160,1));
     z-index: 0;
 }
-
-.pock1 {
-    height: 15px;
-    width: 15px;
-    border-radius: 100px;
-    background-color: rgb(155,155,155);
-    position: relative;
-    left: 25px;
-    padding: 2px;
-    margin: 4px;
-}
-.pock2 {
-    height: 35px;
-    width: 35px;
-    border-radius: 200px;
-    background-color: rgb(155,155,155);
-    position: relative;
-    right: -25px;
-    top: 10px;
-    padding: 1px;
-    margin: 4px;
-    z-index: 10;
-}
-.pock3 {
-    height: 25px;
-    width: 25px;
-    border-radius: 100px;
-    background-color: rgb(155,155,155);
-    position: relative;
-    left: -25px;
-    top: 15px;
-    padding: 8px;
-    margin: 4px;
-    z-index: 2;
-}
-
-
 
 .title {
     position: absolute;
@@ -319,10 +289,10 @@ fieldset textarea {
     margin: auto;
 }
 
-#projectImage {
+.projectImage {
     width: 200px;
     height: 200px;
-    border: green solid 1pt;
+    border: Black solid 2pt;
     border-radius: 400px;
     margin: 1.5em;
 }
@@ -351,7 +321,49 @@ fieldset textarea {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
 
+/* individual images */
+#ProjOne {
+    background-image: url('../assets/projectimages/GnG.jpg');
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#ProjTwo {
+    background-image: url('../assets/projectimages/apiProject.JPG');
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#ProjThree {
+    background-image: url('../assets/projectimages/cssCreature.JPG');
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#ProjFour {
+    background-image: url('../assets/projectimages/eRecruit.JPG');
+    background-size: 130%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#ProjFive {
+    background-image: url('../assets/projectimages/staticPage.JPG');
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#ProjSix {
+    background-image: url('../assets/projectimages/MJW.JPG');
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 
@@ -376,14 +388,15 @@ fieldset textarea {
 }
 
 #aboutMePic{
-    border: red solid 2px;
+    /* border: red solid 2px; */
     width: 20vw;
     margin: 0 1em;
-    background-image: url('https://images.unsplash.com/photo-1561505457-3bcad021f8ee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80');
+    background-image: url('../assets/EricWinebrenner.jpg');
     background-size: 100%;
     background-position: center;
-    /* background-position-y: -90pt; */
+    background-position-y: 1pt;
     background-repeat: no-repeat;
+    border-radius: 20px;
 }
 
 
@@ -469,15 +482,20 @@ fieldset textarea {
 
 .jokebutton {
     margin: .5em;
-    width: 200px;
+    width: 10vw;
 }
-
-/* .dadjoke button {
-    width: 200px;
-} */
 
 #joke {
     margin: .5em;
+}
+
+#toTopBtn {
+    margin: 0 auto;
+    height: 55px;
+    width: 55px;
+    background-image: url('../assets/chevron-upwards-arrow.svg');
+    background-size: 100%;
+    border-radius: 300px;
 }
 
 /* _______________________________________ */
@@ -486,6 +504,13 @@ fieldset textarea {
     display: flex;
     justify-content: center;
     width: 100vw;
+    color: var(--colorThree);
+}
+
+#creditEW-media {
+    display: none;
+    text-align: center;
+    color: var(--colorThree);
 }
 
 .footer {

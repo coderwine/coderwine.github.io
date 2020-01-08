@@ -9,7 +9,7 @@
         /* margin: 1em; */
         border: 1pt solid orangered;
         border-radius: 300px;
-        
+
     }
 }
 
@@ -17,40 +17,41 @@
 /* Mobile Screens */
 
 @media only screen and (max-width: 450px) {
+
     /* JUMBOTRON */
     .jumbotron {
         position: relative;
         z-index: -1;
+        background-size: cover;
     }
 
+
     .dayNight {
-        top: 25em;
-        width: 50vw;
+        top: 1em;
+        width: 400px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         position: absolute;
-        animation-name: none;
-        animation-duration: 15s;
+        animation-name: passingTimeMedia;
+        animation-duration: 24s;
         animation-iteration-count: infinite;
         animation-timing-function: linear;
     }
-    
+
     .sunShell {
-        /* padding: 3em;
-        height: 100px;
-        width: 100px; */
-        animation-name: none;
-        /* animation-duration: 15s;
-        animation-iteration-count: infinite;
-        animation-timing-function: linear; */
+        padding: 3em;
+    }
+
+    .moonShell {
+        /* display: none; */
     }
 
     #dArrow {
-        top: 80vh;
-        left: 45%;
+        visibility: hidden;
     }
-/* ------------------------------------------------- */
+
+    /* ------------------------------------------------- */
     /* CONTACT ME */
     .contact-btn {
         position: sticky;
@@ -62,8 +63,9 @@
 
     .title {
         top: 30%;
-    }    
-/* ------------------------------------------------- */
+    }
+
+    /* ------------------------------------------------- */
     /* LIST OF ICONS */
     #icon-ref {
         display: none;
@@ -79,7 +81,8 @@
         padding: 1em;
         margin-top: -1em;
     }
-/* ------------------------------------------------- */
+
+    /* ------------------------------------------------- */
     /* MISSION STATEMENT  */
     .mission-body {
         padding: 0 2em 2em 2em;
@@ -93,39 +96,41 @@
     #mission-image {
         display: none;
     }
-/* ------------------------------------------------- */
+
+    /* ------------------------------------------------- */
     /* PROJECTS */
     .projectBoard {
         padding: 1rem;
     }
-    
+
     #projectImage {
         margin: .2em auto;
     }
-    
+
     .projectItemA {
         flex-direction: column;
     }
-    
+
     .projectItemB {
         flex-direction: column;
     }
-    
+
     #projectInfo {
         width: 90vw;
-        flex-direction: column;    
+        flex-direction: column;
     }
-    
+
     /* .projectDetail {
     
     } */
 
-/* ------------------------------------------------- */
-    /* ABOUT ME */ 
+    /* ------------------------------------------------- */
+    /* ABOUT ME */
     #aboutMeText {
         width: 80vw;
     }
-/* ------------------------------------------------- */
+
+    /* ------------------------------------------------- */
     /* DESIGN */
     .designPrincipleMain {
         padding: .5em;
@@ -161,59 +166,49 @@
         margin: 2em;
         padding: 0 1em;
     }
-}
 
-/* ------------------------------------------------- */
-/* FOOTER */
-#creditEW {
-    margin-top: .2em;
-    
-}
+    /* ------------------------------------------------- */
+    /* FOOTER */
+    #creditEW {
+        display: none;
+    }
 
-.footer {
-    width: cover;
-    flex-direction: column-reverse;
-    margin: .5em;
-}
+    #creditEW-media {
+        margin-top: 3em;
+        text-align: center;
+        border: 1px solid red;
+    }
 
-#footLeft {
-    display: none;
-}
+    .footer {
+        width: cover;
+        flex-direction: column-reverse;
+        margin: .5em;
+    }
 
-#footRight {
-    display: flex;
-    flex-direction: column;
-}
+    #footLeft {
+        display: none;
+    }
 
-#footRight h5 {
-    display: none;
-}
+    #footRight {
+        display: flex;
+        flex-direction: column;
+    }
 
-#iconShell {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
+    #footRight h5 {
+        display: none;
+    }
 
-.connectIcons {
-    height: 75px;
-    width: 75px;
-    border-radius: 300px;
-    margin: .3em;
-}
+    #iconShell {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
 
-/* #footLI {
-    background-image: url('../assets/linkedin.svg');
-    background-position: center;
+    .connectIcons {
+        height: 75px;
+        width: 75px;
+        border-radius: 300px;
+        margin: .3em;
+    }
 }
-#footGH {
-    background-image: url('../assets/github-logo.svg');
-    background-position: center;
-    background-size: 100%;
-}
-#footEW {
-    background-image: url('../assets/EW-Logo-5.jpg');
-    background-position: center;
-    background-size: 100%;
-} */

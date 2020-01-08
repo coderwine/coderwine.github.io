@@ -1,10 +1,16 @@
 /* Tablets */
 @media only screen and (max-width: 1024px) {
+   /* JUMBO */
+   .dayNight {
+    /* top: 25em;
+    width: 100vw; */
+    background-size: cover;
+}
+   
     /* MISSION STATEMENT */
     .mission {
         display: flex;
         flex-direction: column;
-        /* flex-wrap: wrap; */
         justify-content: center;
         text-align: left;
         margin: 5em auto 0 auto;

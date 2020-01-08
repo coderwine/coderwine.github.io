@@ -1,23 +1,27 @@
 @keyframes move {
     0% {
-        text-shadow: 3px -5px darkgrey;
+        text-shadow: 13px 10px 20px darkgrey;
     }
 
 
     50% {
-        text-shadow: -16px -12px darkgrey;
+        text-shadow: 8px 8px 10px rgab(0,0,0,1);
     }
 
     100% {
-        text-shadow: -10px -15px darkgrey;
+        text-shadow: 13px 10px 20px darkgrey;
     }
 }
 
 @keyframes passingTime {
-    /* 0% {
-        transform: rotate(0deg);
-    } */
+   
+    100% {
+        transform: rotate(360deg);
+    }
+}
 
+@keyframes passingTimeMedia {
+   
     100% {
         transform: rotate(360deg);
     }
@@ -29,4 +33,12 @@
         transform: rotate(360deg);
       
     }
+}
+
+@keyframes backgroundRotate {
+
+    100% {
+        transform: rotate(360deg);
+    }
+
 }
