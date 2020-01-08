@@ -91,11 +91,30 @@
 
     .mStatement {
         width: 80vw;
+        margin-bottom: 5em;
     }
 
     #mission-image {
         display: none;
     }
+    /* ------------------------------------------------- */
+    /* Training */
+    .TrainDec {
+        flex-direction: column;
+        width: 75vw;
+        height: 45vh;
+    } 
+
+    #EFA-Logo {
+        margin: auto;
+    }
+
+    #TrainIntro {
+        width: 75vw;
+        height: 45vh;
+        margin-bottom: 5em;
+    }
+
 
     /* ------------------------------------------------- */
     /* PROJECTS */
