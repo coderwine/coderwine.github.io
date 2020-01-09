@@ -39,6 +39,7 @@
         flex-direction: column;
         width: 75vw;
         height: 45vh;
+        /* margin-bottom: 250px; */
     } 
 
     #EFA-Logo {
@@ -47,8 +48,7 @@
 
     #TrainIntro {
         width: 75vw;
-        height: 45vh;
-        margin-bottom: 2em;
+        /* height: 45vh; */
     }
 
 

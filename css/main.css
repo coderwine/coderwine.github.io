@@ -591,3 +591,8 @@ fieldset textarea {
     background-position: center;
     background-size: 100%;
 }
+#footCP {
+    background-image: url('../assets/my-icons-collection/svg/CodePen.png');
+    background-position: center;
+    background-size: 100%;
+}
