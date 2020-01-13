@@ -287,9 +287,9 @@ fieldset textarea {
     flex-direction: row;
     justify-content: center;
     margin: auto;
-    height: 20vh;
-    width: 50vw;
-    margin-bottom: 5em;
+    height: 30vh;
+    width: 100vw;
+    /* margin-bottom: 5em; */
 }
 
 #EFA-Logo {
