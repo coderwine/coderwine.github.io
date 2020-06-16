@@ -363,34 +363,41 @@ fieldset textarea {
 }
 
 #ProjTwo {
-    background-image: url('../assets/projectimages/apiProject.JPG');
+    background-image: url('../assets/projectimages/boardgameAPI.JPG');
     background-size: 150%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #ProjThree {
+    background-image: url('../assets/projectimages/apiProject.JPG');
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#ProjFour {
     background-image: url('../assets/projectimages/cssCreature.JPG');
     background-size: 120%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-#ProjFour {
+#ProjFive {
     background-image: url('../assets/projectimages/eRecruit.JPG');
     background-size: 130%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-#ProjFive {
+#ProjSix {
     background-image: url('../assets/projectimages/staticPage.JPG');
     background-size: 150%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-#ProjSix {
+#ProjSeven {
     background-image: url('../assets/projectimages/MJW-opt2.JPG');
     background-size: 110%;
     background-repeat: no-repeat;
